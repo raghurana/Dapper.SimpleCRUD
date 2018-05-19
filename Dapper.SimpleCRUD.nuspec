@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Dapper.SimpleCRUD</id>
-    <version>1.13.0</version>
-    <title>Dapper.SimpleCRUD</title>
-    <authors>Eric Coffman</authors>
-    <owners>Eric Coffman</owners>
+    <id>Dapper.SimpleCRUD.Emprevo</id>
+    <version>1.13.1</version>
+    <title>Dapper.SimpleCRUD.Emprevo</title>
+    <authors>Emprevo Developer</authors>
+    <owners>Emprevo </owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>http://github.com/ericdc1/Dapper.SimpleCRUD/</projectUrl>
+    <projectUrl>https://github.com/raghurana/Dapper.SimpleCRUD</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       	Simple Get, GetList, GetListPaged, Insert, Update, Delete, DeleteList, and RecordCount extensions for Dapper.  Uses smart defaults for attribute free classes but can be overridden as needed.
@@ -44,6 +44,7 @@
 	* version 1.11.1 Bug fix for resolvers to allow attributes from different namespaces (SimpleCRUD and Data Annotations)
 	* version 1.12.0 Added notmapped attribute to match DataAnnotations (thanks Mattykins). Allow insert with string primary key (thanks xalikoutis)
 	* version 1.13.0 Accept parameters on getlist, getlistpaged, deletelist, recordcount, and matching async methods 
+  * version 1.13.1 Fix for https://github.com/ericdc1/Dapper.SimpleCRUD/issues/155 compatible with nuget package 1.13.0
 )
 	</releaseNotes>
     <copyright>Copyright Eric Coffman 2016</copyright>
